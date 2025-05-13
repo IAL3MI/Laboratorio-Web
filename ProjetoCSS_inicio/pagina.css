@@ -1,0 +1,88 @@
+body {
+    background:rgb(193, 193, 193);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.header-principal {
+    background: url("imagens/bg-2.jpg") bottom;
+    padding: 100px;
+    color: white;
+    padding-top: 1px;
+}
+
+.header-principal h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.header-principal p{
+    border-bottom: solid 3px white;
+    background: rgba(0, 0, 0, .7);
+    padding: 16px;
+    font-size: 18px;
+    display: inline-block;
+}
+.header-principal ul{
+    text-align: right;
+}
+.header-principal li{
+    display: inline-block;
+    padding: 0;
+    margin: 5px;
+}
+
+.header-principal a{
+    background: rgba(108, 105, 105, .3);
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.header-principal a:hover{
+    background-color: rgba(0, 0, 0, .5);
+}
+main {    
+    margin: auto;
+    width: 90%;
+    max-width: 860px;
+}
+
+article {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 16px;
+}
+
+article h2{
+    background: #eee;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+    padding: 8px;
+}
+
+article a{
+    background: rgb(171, 170, 170);
+    display: block;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 12px;
+    margin-left: auto;
+}
+
+.footer-principal{
+    background: rgb(107, 107, 107);
+    padding: 16px;
+    color: white;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
