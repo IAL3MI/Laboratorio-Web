@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    background:rgb(193, 193, 193);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+.hero {
+    background: no-repeat url("../imagens/bg-4.jpg") center;
+    padding: 100px;
+    display: flex;
+}
+.hero-content {
+    margin: auto;
+}
+.hero-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, .7);
+    padding: 16px 32px;
+    border-bottom: 4px solid white;
+    margin: 0;
+
+}
+
+.content-section {
+    display: flex;
+    flex-grow: 1;
+    background: white;
+    
+}
+
+.card{
+   width: 100%;
+}
