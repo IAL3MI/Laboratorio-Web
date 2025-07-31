@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+    --title-font: 'belleza', 'sans-serif';
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    height: 100%;
+    color:#555;;
+}
+
+.main-header{
+    display: flex;
+    padding: 1rem;
+    background: #162819;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 4rem;
+    margin: 0;
+    font-family: var(--title-font);
+    margin-left: 16rem;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+    letter-spacing: 0.4rem;
+    gap: 2rem;
+    font-size: 1.4rem; 
+
+}
+
+.nav-page{
+    text-decoration: none;
+    padding: 1rem;
+    color: #5b895e;
+}
+
+.main-container {
+    background: no-repeat url("../imagens/topo.jpg") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 14rem;
+}
+
+.introduction-article{
+    display: inline-block;
+    text-align: center; 
+    width: 60%;
+    margin-top: 14rem;
+}
+
+.introduction-title{
+    font-size: 6rem;
+    font-family: var(--title-font);
+    margin: 0 0 6rem;
+    font-weight: normal;
+    
+}
+
+.introduction-content{
+    line-height: 3rem;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.employees{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.employees-names {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.merchandise {
+    background: no-repeat center url(../imagens/bg_detalhe.png);
+    background-size: cover;
+    height: 85%;
+    text-align: center;
+}
+
+.merchandise-article {
+    display: inline-block;
+    width: 80%;
+    color: white;
+    text-align: left;
+}
+
+.merchandise-title {
+    font-family: var(--title-font);
+    font-size: 6rem;
+    font-weight: normal;
+
+    text-transform: uppercase;
+}
+
+.merchandise-content{
+    line-height: 3rem;
+    width: 60%;
+    font-size: 2rem;
+}
+
+.page-footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 1.6rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    padding: 4rem;
+}

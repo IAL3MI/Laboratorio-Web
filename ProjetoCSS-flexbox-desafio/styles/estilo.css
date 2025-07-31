@@ -4,41 +4,53 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 0;
-
-}
-
-.hero {
     background: no-repeat url("../imagens/bg-4.jpg") center;
-    padding: 100px;
-    display: flex;
+    background-size: cover; 
+    padding: 10px;
 }
+    
 .hero-content {
-    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin: 90px auto 0;
 }
 .hero-content h1{
     font-size: 70px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px black;
     color: white;
+    margin-bottom: 16px;
 }
 
 .hero-content p {
     font-size: 20px;
     color: white;
     background: rgba(0, 0, 0, .7);
-    padding: 16px 32px;
+    padding: 16px;
     border-bottom: 4px solid white;
     margin: 0;
-
+    display: inline-block;
 }
 
 .content-section {
     display: flex;
-    flex-grow: 1;
-    background: white;
-    
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 40px auto;
 }
 
-.card{
-   width: 100%;
+.card {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex-direction: column;
+    margin: 0 5px 10px;
+}
+
+.card p {
+    background-color: rgb(67, 66, 66);
+    color: white ;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
 }
